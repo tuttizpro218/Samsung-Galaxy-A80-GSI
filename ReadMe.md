@@ -80,8 +80,10 @@ umount -l /system_root(this one worked for me) or umount -f /system_root
 Force /system_root:
 dd if=/path/to/system.img of=/dev/block/by-name/system bs=4096
 
+Quit from adb shell
+
 Force vbmeta.img:
-./odin4 -a vbmeta.tar
+./odin4 -a vbmeta.tar (!! YOU NEED TO PAY ATTENTION TO THIS CUZ ON LINUX THERE IS NO UNCHECK AUTO REBOOT!!, after the flash was finished, instantly hold Volume Up + Power, it's should boot into twrp)
 ```
 
 ### 5️⃣ Flash `vbmeta.img` via Odin
