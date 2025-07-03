@@ -100,3 +100,4 @@ If everything flashed correctly:
 ---
 
 > Authored by @tuttizpro218 and @ChatGPT4-o — Simplified for fellow Galaxy A80 tweakers.
+> https://github.com/TrebleDroid/treble_experimentations/releases/tag/ci-20250617 gonna test this later! :)
