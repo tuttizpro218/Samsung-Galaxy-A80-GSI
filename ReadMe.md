@@ -19,9 +19,11 @@
 
 ### 1️⃣ Flash TWRP via Odin
 
-- Boot your phone to **Download Mode** (Device should in power off already, hold Volume Down + Up and plug the usb cable into the phone!)
+- Boot your phone to **Download Mode** (Powered off state)
+- **Hold Volume Down + Up and plug the usb cable into the phone, then press Volume Up again**
+- **(WARNING!!!! YOU NEED TO ENABLE OEM UNLOCK AND USB DEBUGGING!!!!!!)**
 - Open **Odin3**
-- Load the **TWRP tar** into the **AP** slot
+- Load the **recovery.tar** into the **AP** slot
 - **Uncheck "Auto Reboot"** in Options
 - Click **Start**
 - When done, manually boot to TWRP:  
