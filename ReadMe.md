@@ -1,13 +1,14 @@
 
 # ✅ How to Install a GSI on Samsung Galaxy A80 (SM-A805F)
 ### ⚙️ No Fastboot | With Odin, TWRP, and GSI | Verified Working
+### ⚙️ ATTENTION FLASH ATTEMPT WAS THIS: Google GSI (Beta 1) (DO NOT ATTEMPT)
 
 ---
 
 ## 📦 Requirements
 
-- **TWRP** (touchscreen fixed version) `.tar`
-- **GSI ROM** (`system.img`)
+- **TWRP** (touchscreen fixed version) `.tar` [Zip](https://drive.google.com/file/d/1F5k4Kf-Mur5cgJOaHGBoIhAz5V4a6P_f/view)
+- **GSI ROM** (`system.img`) [LIST](https://github.com/TrebleDroid/treble_experimentations/wiki/Generic-System-Image-%28GSI%29-list)
 - **vbmeta.img** (from GSI or patched manually)
 - **Odin3** (on Windows)
 - **ADB + Platform Tools** (Linux/Windows)
