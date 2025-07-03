@@ -59,20 +59,6 @@ rm -rf /cache/dalvik-cache
 rm -rf /cache/*
 mke2fs -t ext4 /dev/block/by-name/userdata
 mke2fs -t ext4 /dev/block/by-name/cache
-mount | grep system
-
-You might see something like:
-
-/dev/block/something on /system_root type ext4 (rw,seclabel,relatime)
-
-umount -l /system_root(this one worked for me) or umount -f /system_root
-
-Force /system_root:
-dd if=/path/to/system.img of=/dev/block/by-name/system bs=4096
-
-Force vbmeta.img:
-./odin4 -a vbmeta.tar
-
 ```
 
 ---
