@@ -54,6 +54,7 @@ or via `adb shell`:
 ```sh
 umount /data
 umount /dev/block/by-name/userdata
+umount /cache
 rm -rf /data/dalvik-cache
 rm -rf /cache/dalvik-cache
 rm -rf /cache/*
