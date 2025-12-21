@@ -6,7 +6,7 @@
 
 ## 📦 Requirements
 
-- **TWRP** (touchscreen fixed version) `.tar` [Zip](https://drive.google.com/file/d/1F5k4Kf-Mur5cgJOaHGBoIhAz5V4a6P_f/view)
+- **TWRP** (touchscreen fixed version) `.tar` [Download]([https://drive.google.com/file/d/1F5k4Kf-Mur5cgJOaHGBoIhAz5V4a6P_f/view](https://github.com/tuttizpro218/Samsung-Galaxy-A80-GSI/releases/tag/Main))
 - **GSI ROM** (`system.img`) [LIST](https://github.com/TrebleDroid/treble_experimentations/wiki/Generic-System-Image-%28GSI%29-list) [I used this](https://github.com/TrebleDroid/treble_experimentations/releases/tag/ci-20250617)
 - **vbmeta.img** (from GSI or patched manually)
 - **Odin3** (on Windows)
