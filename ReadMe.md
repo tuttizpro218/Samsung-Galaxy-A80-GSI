@@ -19,6 +19,9 @@
 
 ### 1️⃣ Flash TWRP via [Odin3 |Windows only](https://odindownload.com)
 
+Since i did this under Linux, im not sure about the Windows part, cuz Odin never ever passed the IMG trhu itself....
+
+```sh
 - Boot your phone to **Download Mode** (Powered off state)
 - **Hold Volume Down + Up and plug the usb cable into the phone, then press Volume Up again**
 - **(WARNING!!!! YOU NEED TO ENABLE OEM UNLOCK AND USB DEBUGGING!!!!!!)**
@@ -32,6 +35,7 @@
 - TWRP should boot with working touchscreen
 - Next step is Wipe Partitions via ADB or TWRP Terminal
 - After this Flash `vbmeta.img` via Odin
+```
 
 ### 1️⃣ Flash TWRP via [Odin4 |Linux only!|](https://github.com/Adrilaw/OdinV4) 
 - Boot your phone to **Download Mode** (Powered off state)
