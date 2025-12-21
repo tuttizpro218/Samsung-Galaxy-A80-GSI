@@ -58,8 +58,9 @@ a71naxx:/ # mount | grep system
 /dev/block/sda23 on /system_root type ext4 (ro,seclabel,relatime,block_validity,delalloc,barrier,user_xattr,acl,i_version)
 a71naxx:/
 ```
+---
 
-###  Wipe Partitions via TWRP
+###  3️⃣ Wipe Partitions via TWRP
 From TWRP → Wipe → Format Data
 Type yes Format
 Swipe to Factory Reset
