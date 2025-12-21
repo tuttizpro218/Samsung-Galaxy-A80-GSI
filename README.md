@@ -18,7 +18,7 @@
 
 This tutorial is only for LINUX USERS!
 
-### 1️⃣ Flash TWRP via Odin4
+### 1️⃣ Flash TWRP+VBMETA via Odin4
 - Boot your phone to **Download Mode** (Powered off state)
 - **Hold Volume Down + Up and plug the usb cable into the phone, then press Volume Up again**
 - **(WARNING!!!! YOU NEED TO ENABLE OEM UNLOCK AND USB DEBUGGING!!!!!!)**
@@ -28,23 +28,11 @@ This tutorial is only for LINUX USERS!
 (sudo chmod +x odin4 this gives you premission to use the program)
 ./odin4 -a recovery.tar (!! YOU NEED TO PAY ATTENTION TO THIS CUZ ON LINUX THERE IS NO UNCHECK AUTO REBOOT!!, after the flash was finished, instantly hold Volume Up + Power, it's should boot into twrp)
 ```
-
----
-
-### 2️⃣ Wipe Partitions via ADB or TWRP Terminal
-From TWRP → Advanced → Terminal  
-
-or via `adb shell`:
+- After your phone restarted **Hold Volume Down + Up, then press Volume Up again**
+- Then flash the vbmeta.tar in the same way.
 
 ```sh
-umount /data
-umount /dev/block/by-name/userdata
-umount /cache
-rm -rf /data/dalvik-cache
-rm -rf /cache/dalvik-cache
-rm -rf /cache/*
-mke2fs -t ext4 /dev/block/by-name/userdata
-mke2fs -t ext4 /dev/block/by-name/cache
+./odin4 -a vbmeta.tar (!! YOU NEED TO PAY ATTENTION TO THIS CUZ ON LINUX THERE IS NO UNCHECK AUTO REBOOT!!, after the flash was finished, instantly hold Volume Up + Power, it's should boot into twrp)
 ```
 
 ---
@@ -58,6 +46,26 @@ or via `adb shell`:
 adb shell "dd of=/dev/block/sda23 bs=4096" < LineageOS-23.0-20251027-GAPPS-EXT4-GSI.img
 
 ```
+- If you are not sure about this part you can find the correct parttion like this:
+
+```sh
+mount | grep system
+```
+
+- Mine looks like this:
+```sh
+a71naxx:/ # mount | grep system
+/dev/block/sda23 on /system_root type ext4 (ro,seclabel,relatime,block_validity,delalloc,barrier,user_xattr,acl,i_version)
+a71naxx:/
+```
+
+### 2️⃣ Wipe Partitions via TWRP
+From TWRP → Wipe → Format Data
+Type yes Format
+Swipe to Factory Reset
+
+---
+
 
 ### 5️⃣ Flash `vbmeta.img` via Odin4
 
