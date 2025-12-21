@@ -62,22 +62,10 @@ a71naxx:/
 
 ###  3️⃣ Wipe Partitions via TWRP
 From TWRP → Wipe → Format Data
-Type yes Format
-Swipe to Factory Reset
+- Type yes Format
+- Swipe to Factory Reset
 
 ---
-
-
-### 5️⃣ Flash `vbmeta.img` via Odin4
-
-- Back to Download Mode
-
-- Transfer to Windows
-- Load `vbmeta.tar` into **AP** in Odin
-- **Uncheck Auto Reboot**
-- Click **Start**
-- After "PASS", manually reboot to **TWRP** again  
-  (Vol Up + Power)
 
 ---
 
