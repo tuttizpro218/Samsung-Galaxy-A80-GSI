@@ -37,7 +37,7 @@ This tutorial is only for LINUX USERS!
 
 ---
 
-### 4️⃣ Flash the GSI via ADB Terminal
+### 2️⃣ Flash the GSI via ADB Terminal
 From TWRP → Advanced → Terminal  
 
 or via `adb shell`:
@@ -59,7 +59,7 @@ a71naxx:/ # mount | grep system
 a71naxx:/
 ```
 
-### 2️⃣ Wipe Partitions via TWRP
+###  Wipe Partitions via TWRP
 From TWRP → Wipe → Format Data
 Type yes Format
 Swipe to Factory Reset
