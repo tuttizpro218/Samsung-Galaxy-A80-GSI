@@ -67,8 +67,6 @@ From TWRP → Wipe → Format Data
 
 ---
 
----
-
 ## 🔁 Boot System
 
 If everything flashed correctly:
