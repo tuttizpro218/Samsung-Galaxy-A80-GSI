@@ -16,27 +16,9 @@
 
 ## 🛠️ Step-by-Step Instructions
 
-### 1️⃣ Flash TWRP via [Odin3 |Windows only](https://odindownload.com)
+This tutorial is only for LINUX USERS!
 
-Since i did this under Linux, im not sure about the Windows part, cuz Odin never ever passed the IMG trhu itself....
-
-```sh
-- Boot your phone to **Download Mode** (Powered off state)
-- **Hold Volume Down + Up and plug the usb cable into the phone, then press Volume Up again**
-- **(WARNING!!!! YOU NEED TO ENABLE OEM UNLOCK AND USB DEBUGGING!!!!!!)**
-- Open **Odin3**
-- Load the **recovery.tar** into the **AP** slot
-- **Uncheck "Auto Reboot"** in Options
-- Click **Start**
-- When done, manually boot to TWRP:  
-  → Press & hold **Vol down + Power** while unplugging USB
-  → After the screen went black  Press & hold **Vol Up + Power** and release the buttons if you se the SAMSUNG Logo
-- TWRP should boot with working touchscreen
-- Next step is Wipe Partitions via ADB or TWRP Terminal
-- After this Flash `vbmeta.img` via Odin
-```
-
-### 1️⃣ Flash TWRP via [Odin4 |Linux only!|](https://github.com/Adrilaw/OdinV4) 
+### 1️⃣ Flash TWRP via Odin4
 - Boot your phone to **Download Mode** (Powered off state)
 - **Hold Volume Down + Up and plug the usb cable into the phone, then press Volume Up again**
 - **(WARNING!!!! YOU NEED TO ENABLE OEM UNLOCK AND USB DEBUGGING!!!!!!)**
@@ -77,7 +59,7 @@ adb shell "dd of=/dev/block/sda23 bs=4096" < LineageOS-23.0-20251027-GAPPS-EXT4-
 
 ```
 
-### 5️⃣ Flash `vbmeta.img` via Odin
+### 5️⃣ Flash `vbmeta.img` via Odin4
 
 - Back to Download Mode
 
