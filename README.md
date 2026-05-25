@@ -37,10 +37,9 @@ This tutorial is only for LINUX USERS!
 
 ---
 
-### 2️⃣ Flash the GSI via ADB Terminal
-From TWRP → Advanced → Terminal  
+### 2️⃣ Flash the GSI via Terminal 
 
-or via `adb shell`:
+`Terminal`:
 
 ```sh
 adb shell "dd of=/dev/block/sda23 bs=4096" < LineageOS-23.0-20251027-GAPPS-EXT4-GSI.img
