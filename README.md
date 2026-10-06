@@ -42,7 +42,7 @@ This tutorial is only for LINUX USERS!
 `Terminal`:
 
 ```sh
-adb shell "dd of=/dev/block/sda23 bs=4096" < LineageOS-23.0-20251027-GAPPS-EXT4-GSI.img
+adb shell "dd of=/dev/block/sda23 bs=4096" < LineageOS-23.2-20260524-GAPPS-EXT4-GSI.img
 
 ```
 - If you are not sure about this part you can find the correct parttion like this:
