@@ -7,7 +7,7 @@
 ## 📦 Requirements
 
 - **TWRP** (touchscreen fixed version) `.tar` [Download](https://github.com/tuttizpro218/Samsung-Galaxy-A80-GSI/releases/tag/Main)
-- **GSI ROM** (`LineageOS-23.0-20251027-GAPPS-EXT4-GSI.img`) [LIST](https://github.com/TrebleDroid/treble_experimentations/wiki/Generic-System-Image-%28GSI%29-list) [I used this](https://github.com/MisterZtr/LineageOS_gsi/releases/tag/v2025.10.27-lineage23.0)
+- **GSI ROM** (`LineageOS-23.2-20260524-GAPPS-EXT4-GSI.img`) [LIST](https://github.com/TrebleDroid/treble_experimentations/wiki/Generic-System-Image-%28GSI%29-list) [I used this](https://github.com/MisterZtr/LineageOS_gsi/releases/tag/v2026.05.24-lineage23.2)
 - **vbmeta.img** (from GSI or patched manually) [Download](https://github.com/tuttizpro218/Samsung-Galaxy-A80-GSI/releases/tag/Main)
 - **Odin4** [Download](https://github.com/Adrilaw/OdinV4/releases)
 - **ADB + Platform Tools** (Linux/Windows)
